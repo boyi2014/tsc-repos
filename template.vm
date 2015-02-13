@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>邮件模板</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <style type="text/css">
+          p{line-height:24px; text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/}
+
+	     .special{color:red; font-size:18px;}
+		.small{font-size:12px;}
+         </style>
+    </head>
+    <body>
+      <h3>亲爱的<span class="special">李斯</span>  </h3>
+      <p>您好！您的<span class="special">上个月</span> (<span class="small">2014-11-01</span>~<span class="small">2014-11-30</span>) 考勤情况如下：。 </p>
+	<table border='1' celspacing='0' celpadding='0'>
+		<tr>
+			<td>日期</td>
+			<td>是否节假日</td>
+			<td>上班时间</td>
+			<td>上班状态</td>
+			<td>下班时间</td>
+			<td>下班状态</td>
+			<td>备注</td>	
+		</tr>
+		<tr>
+			<td>2014-11-01</td>
+			<td>是</td>
+			<td>08:45</td>
+			<td>正常</td>
+			<td>18:06</td>
+			<td>正常</td>
+			<td>xxxx</td>	
+		</tr>
+	</table>
+    </body>
+</html>
